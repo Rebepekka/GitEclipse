@@ -12,6 +12,11 @@ public class ArvausPeli {
 		{
 			System.out.println("Arvaa nimi:");
 			guess = keyboardInput.nextLine();
+			if(guess.equals("Loppu"))
+			{
+			System.out.println("Lopetit pelin");
+			System.exit(0);
+			}
 		}
 		System.out.println("Arvasit oikein!");
 				
