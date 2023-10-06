@@ -13,6 +13,7 @@ public class ArvausPeli {
 			System.out.println("Arvaa nimi:");
 			guess = keyboardInput.nextLine();
 		}
+		System.out.println("Arvasit oikein!");
 				
 		
 		
