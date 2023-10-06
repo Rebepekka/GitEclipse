@@ -7,11 +7,13 @@ public class ArvausPeli {
 		
 		String secretWord ="Kukka";
 		String guess = "";
+		int counter = 0;
 		
 		while(!guess.equals(secretWord))
 		{
 			System.out.println("Arvaa nimi:");
 			guess = keyboardInput.nextLine();
+			counter++;
 			if(guess.equals("Loppu"))
 			{
 			System.out.println("Lopetit pelin");
@@ -19,7 +21,7 @@ public class ArvausPeli {
 			}
 		}
 		System.out.println("Arvasit oikein!");
-				
+	
 		
 		
 		
