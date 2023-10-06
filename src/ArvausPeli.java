@@ -16,17 +16,13 @@ public class ArvausPeli {
 			counter++;
 			if(guess.equals("Loppu"))
 			{
-			System.out.println("Lopetit pelin.");
-			System.out.println("Arvasit " + counter + " kertaa.");
-			System.exit(0);
+				System.out.println("Lopetit pelin.");
+				System.out.println("Arvasit " + counter + " kertaa.");
+				System.exit(0);
 			}
 		}
 		System.out.println("Arvasit oikein!");
-		System.out.println("Arvasit " + counter + " kertaa.");
-	
-		
-		
-		
+		System.out.println("Arvasit " + counter + " kertaa.");	
 	}
 
 }
